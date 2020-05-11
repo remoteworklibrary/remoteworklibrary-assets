@@ -4,3 +4,9 @@
 
 * Please provide pictures (JPG, PNG) in 16:9 aspect ratio.
 * Best picture size for the current layout is 730 x 410 pixels.
+
+## Image compression
+
+```bash
+magick <source>.jpg -quality 90% <target>.jpg
+```
